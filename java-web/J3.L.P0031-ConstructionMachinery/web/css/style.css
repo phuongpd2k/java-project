@@ -1,0 +1,154 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jan 27, 2021, 7:54:13 AM
+    Author     : Zuy Fun
+*/
+body {
+    background: url(../image/steel.jpg) repeat;
+    font-family: sans-serif;
+    background-position: top;
+    margin: auto;
+}
+.container{
+    width: 980px;
+    margin: auto;
+    box-shadow: 0 0 24px;
+    margin-top: -10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: auto;
+    background-color: white;
+}
+
+.content{
+    width: 940px;
+    display: flex;
+    height: auto;
+    margin: auto;
+    border-bottom: 1px grey solid; 
+
+}
+.left{
+    width: 700px;
+    height: auto;
+}
+/*infor*/
+.infor{
+    border-bottom: 3px grey dotted;
+    padding-bottom: 20px;
+}
+.left_title{
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: bold;
+}
+.infor_shortDes{
+    font-weight: bold;
+    margin-top: 35px;
+}
+.infor_longDes{
+    margin-top: 15px;
+}
+.infor_image{
+    width: 100%;
+}
+.infor_image img{
+    width: 100%;  
+    height: auto;
+    border-radius: 12px;
+}
+/*listmachine*/
+.listmachine{
+    display: inline-block;
+    width: 210px;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px grey dotted; 
+}
+.listmachine_img img{
+    width: 100%;
+    border-radius: 12px;
+}
+.listmachine_title a{
+    color: black;
+    font-weight: bold;
+}
+/*paging*/
+.paging{
+    height: 40px;
+    padding-left: 300px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.paging a{
+    font-weight: bold;
+    font-size: 20px;
+    color: darkred;
+    text-decoration: none;
+    border: 0.5px lightgrey solid;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+/*about*/
+.company_content{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    height: auto;
+}
+.company_image img{
+    width: 380px;
+    border-radius: 12px;
+    margin-left: 20px;
+    float: right;
+}
+/*detail*/
+.detail_image img{
+    width: 500px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    margin-left: 20px;
+}
+/*cotact*/
+.contact_info{
+    border-bottom: 3px dotted grey;
+}
+/*.row{
+    display: flex;
+}*/
+.row{
+    width: 100%;
+}
+.row .span6{
+    display: inline-block;
+    width: 49.5%;
+}
+input{
+    font-family: sans-serif;
+    vertical-align: middle;
+    border-radius: 6px;
+    width: 98%;
+    height: 30px;
+    border: 1px solid #ccc;
+    white-space: pre-wrap;
+}
+.message textarea{
+    font-family: sans-serif;
+    width: 98%;
+    height: 100px;
+    border-radius: 6px;
+    margin-top: 2%;
+    border: 1px solid #ccc;
+
+}
+.buttonright{
+    float: right;
+    width: 30%;
+    margin-right: 0 auto;
+    padding-bottom: 50px;
+}
+
